@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1925" started-at="2020-06-22T00:21:04 IST" finished-at="2020-06-22T00:21:06 IST">
+  <suite name="Default suite" duration-ms="13263" started-at="2020-07-06T22:27:53 IST" finished-at="2020-07-06T22:28:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1925" started-at="2020-06-22T00:21:04 IST" finished-at="2020-06-22T00:21:06 IST">
-      <class name="Base">
-        <test-method status="PASS" signature="Testcases1()[pri:0, instance:Base@6f15d60e]" name="Testcases1" duration-ms="1890" started-at="2020-06-22T00:21:04 IST" finished-at="2020-06-22T00:21:06 IST">
+    <test name="Default test" duration-ms="13263" started-at="2020-07-06T22:27:53 IST" finished-at="2020-07-06T22:28:06 IST">
+      <class name="Table">
+        <test-method status="PASS" signature="TableFeature()[pri:0, instance:Table@29d80d2b]" name="TableFeature" duration-ms="13234" started-at="2020-07-06T22:27:53 IST" finished-at="2020-07-06T22:28:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcases1 -->
-      </class> <!-- Base -->
+        </test-method> <!-- TableFeature -->
+      </class> <!-- Table -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

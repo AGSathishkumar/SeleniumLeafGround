@@ -26,6 +26,11 @@ public class CommonMethods {
 		selectTextBox.sendKeys(Text);
 	}
 
+	public static String getAttribute(WebDriver driver, By by) {
+		String text = driver.findElement(by).getAttribute("value");
+		return text;
+
+	}
 	public static String getText(WebDriver driver, By by) {
 		String text = driver.findElement(by).getAttribute("value");
 		return text;
@@ -43,7 +48,7 @@ public class CommonMethods {
 		return displayed;
 	}
 
-	@AfterSuite
+	//@AfterSuite
 	public void closeBrowser() {
 		driver.quit();
 	}
